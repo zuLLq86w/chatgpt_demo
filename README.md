@@ -63,6 +63,10 @@ python main.py
 http://127.0.0.1:8000/docs
 
 6. 部署
+```shell
+git clone https://github.com/zuLLq86w/chatgpt_demo.git
+docker compose up -d 
+```
 
 ### 6.设计说明
 
