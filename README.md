@@ -65,7 +65,9 @@ http://127.0.0.1:8000/docs
 6. 部署
 ```shell
 git clone https://github.com/zuLLq86w/chatgpt_demo.git
-docker compose up -d 
+docker build . -t zullq86w/chatgpt_demo
+docker push zullq86w/chatgpt_demo:latest
+docker compose up -d
 ```
 
 ### 6.设计说明
